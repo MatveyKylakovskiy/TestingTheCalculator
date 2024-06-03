@@ -22,5 +22,6 @@ namespace TestingTheCalculator
         public IWebElement ClearAllButton() => Page.GetElement(By.XPath("//div[text()='стереть все']"));
 
         public IWebElement Output() => Page.GetElement(By.ClassName("dcg-exp-output-container"));
+        //Поиск результата
     }
 }

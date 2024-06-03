@@ -46,6 +46,7 @@ namespace TestingTheCalculator
             var result = element.Output().Displayed;
 
             Assert.IsTrue(result);
+
         }
 
 
